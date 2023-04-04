@@ -1,9 +1,9 @@
 <h1 align="center">Hi 👋, I'm Trisha Srivastava</h1>
 <h3 align="center">A passionate frontend developer and C++ Programmer from India</h3>
 
-- 🔭 I’m currently working on [my portfolio website](https://trishasrivastava002.github.io/Trisha_portfolio.github.io/)
+- 🔭 I’m currently working on [my portfolio website](https://trishasrivastava002.github.io/portfolio.github.io/)
 
-- 👨‍💻 All of my projects are available at [https://trishasrivastava002.github.io/Trisha_portfolio.github.io/](https://trishasrivastava002.github.io/Trisha_portfolio.github.io/)
+- 👨‍💻 All of my projects are available at [https://trishasrivastava002.github.io/Trisha_portfolio.github.io/](https://trishasrivastava002.github.io/portfolio.github.io/)
 
 - 💬 Ask me about **C/C++, DSA, SQL,Front-End DEvelopment**
 
