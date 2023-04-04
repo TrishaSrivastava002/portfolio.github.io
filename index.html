@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://kit.fontawesome.com/9fc545c71b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+        <div class="container" data-aos="zoom-in">
+            <nav>
+                <ul id="sidemenu">
+                    <li> <a href="#header"> <i class="fa-solid fa-house"></i> Home</a></li>
+                    <li> <a href="#about"> <i class="fa-regular fa-user"></i> About </a></li>
+                    <li><a href="#services"> <i class="fa-solid fa-laptop-file"></i> Services </a> </li>
+                    <li> <a href="#portfolio"> <i class="fa-solid fa-file"></i> Portfolio</a> </li>   
+                    <li><a href="#contact"><i class="fa-sharp fa-solid fa-phone-flip"></i> Contact </a> </li>
+                    <!-- for the responsive part  -->
+                    <!-- <i class="fas fa-times" onclick="closemenu()"></i> -->
+                </ul>
+                <!-- <i class="fas fa-bars" onclick="openmenu()"></i> -->
+            </nav>
+           </div>
+   
+<!-- -------------------------------- HEADER INTRO----------------------------------------->
+    <div class="header-text"  data-aos="zoom-in">
+        <p> <span> Programmer </span>   And  <span> Front-End Developer </span> </p>
+        <h1>This is, <span> Trisha Srivastava </span> </h1>
+    </div>
+    <!-- //////////////////// ABOUT ME ////////////////////////// -->
+   <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1" data-aos="zoom-in">
+                <!-- ADD IMAGE -->
+                <!-- <img src="me.jpeg" alt="image3" height="698px" width="1500px"> -->
+                <div class="card">
+                    <div class="card-inner">
+                      <div class="front-face">
+               <img src="me.jpeg" height="698px" width="1500px">   
+                      </div>
+                      <div class="back-face">
+                        <h2>TRISHA SRIVASTAVA</h2>
+                        <br>
+                        <p> Coder,Developer,Learner</p>
+                        <br>
+                        <div class="media">
+                        <a href="https://www.hackerrank.com/trishasrivastav2" target="_blank"><i class="fa-solid fa-code"></i></a>
+                        <a href="https://www.cloudskillsboost.google/public_profiles/0632920a-eef7-420d-b1de-28387a399fb0" target="_blank"><i class="fa-solid fa-cloud"></i></a>  
+                        <a href="https://twitter.com/TrishaS16284500" target="_blank"> <i class="fa-brands fa-twitter"></i> </a>
+                        </div>
+                      </div>
+                    </div>   
+                </div>
+            </div>
+            <div class="about-col-2" data-aos="zoom-in">
+                <h1 class="sub-title" data-aos="zoom-in"> About  <span>Me </span> </h1>  <br>
+                <p class="para">A <span>Software Engineer</span> with knowledge of C, C++,Python and SQL .
+                    I have worked with HTML,CSS, bootstrap and Javascript during <span> Front-End Development </span> 
+                     . I aspire to work in a reputed firm , <span>grow as a professional</span> 
+                    and work in fields like Artificial Intelligence, Machine Learning,Web-Development , Blockchain and <span> Data Analysis </span> .
+                </p>
+                    <div class="tab-titles1">
+                        <p class="tab-links active-link" onclick="opentab('skills')"> Skills </p>
+                        <p class="tab-links" onclick="opentab('experience')"> Experience </p>
+                        <p class="tab-links"  onclick="opentab('education')"> Education </p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li> <span> Web Developement </span>  <br> <br> 
+                                <a href="https://www.linkedin.com/learning/certificates/ab016f88f1c5dcfb627315d5d47e4c7ea4f1a0013c284b21f5d8ea922e75f580" target="_blank"> 
+                                <i class="fa-brands fa-linkedin"></i> </a> Front-End Developement  </li>
+                            <li> <span> Competitive Programming </span> <br> <br>
+                            <a href="https://www.hackerrank.com/trishasrivastav2" target="_blank"> <i class="fa-brands fa-hackerrank"></i> </a> Hackerrank Profile <br>
+                            <a href="https://auth.geeksforgeeks.org/user/trishasrivastava002/profile" target="_blank">  GfG </a> GeeksForGeeks Profile <br>
+                            <a href="https://leetcode.com/trisha002/" target="_blank">  LeetCode </a> LeetCode Profile </li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li> <span> Web Developer </span> <br> HTML <br> CSS <br> Bootstrap <br> Javascript  </li>
+                            <li> <span> Coder </span> <br> C/C++  <br> Python <br> SQL  </li>
+                         
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li> <span> 2020-2024 </span> <br> B.tech in CSE from SRM University NCR Campus - <span> 9.56 </span>  </li>
+                            <li> <span> 2019-2020 </span> <br> 12th from ST.TERESA - <span> 94.4%</span> </li>
+                            <li> <span> 2017-2018 </span> <br> 10th from ST.TERESA  - <span>96.2%</span> </li>
+
+                        </ul>
+                    </div>
+                    <br>
+                    <br>
+
+                    <!--------------------- 2nd Column----------------------------------------->
+                    <div class="tab-titles2">
+                        <p class="tab-links active-link" onclick="opentab('certificate')"> Certificates </p>
+                        <p class="tab-links" onclick="opentab('position')"> Position of Responsibility </p>
+                        <p class="tab-links"  onclick="opentab('others')"> Technical Subjects </p>
+                    </div>
+                    <div class="tab-contents active-tab" id="certificate">
+                        <ul>
+                            <li> <span> Programming Language Certifications </span>  <br> <br>
+                                <a href="https://www.hackerrank.com/certificates/3998c0fd34b9" target="_blank"> <i class="fa-brands fa-hackerrank"></i> </a> SQL(Basic) Certification  <br> 
+                                <a href="https://coursera.org/share/614a86d4c5460d710a88f264bc6b0938" target="_blank"> <i class="fa-brands fa-python"></i> </a>Programming In Python <br> 
+                                <a href="https://www.hackerrank.com/trishasrivastav2" target="_blank"> <i class="fa-solid fa-c"></i> </a>  Introduction To Programming Using C Language <br> 
+                                <a href="https://www.hackerrank.com/certificates/ed52333bc422" target="_blank"> <i class="fa-brands fa-hackerrank"></i> </a> CSS Certification  <br> <br>
+                            <li> <span> Course & Training Completion Certificates</span> <br> <br> 
+                                <a href="https://www.cloudskillsboost.google/public_profiles/0632920a-eef7-420d-b1de-28387a399fb0" target="_blank">
+                                     <i class="fa-brands fa-google"></i> </a> 30 Days Of Google Cloud Completion   <br>
+                                <a href="https://www.linkedin.com/learning/certificates/ab016f88f1c5dcfb627315d5d47e4c7ea4f1a0013c284b21f5d8ea922e75f580" target="_blank"> 
+                                    <i class="fa-brands fa-linkedin"></i> </a> Career In Front-End Development </li>
+                                
+
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="position">
+                        <ul>
+                            <li> <span> ISTE Technical Team Member(2022-2023)  </span> <br> <br>  I.S.T.E (Indian Society for Technical Education) is a national, professional, non-profit making, government aided society, started in 1941
+                                 as the "Association of Principals of Technical Education (A.P.T.I)".It has grown to become the only technical society which is government aided in SRM IST. ISTE'S main objective is to assist and contribute in the production and development of the professionals in the industry. 
+                                 <!-- We conduct many events which targets a particular sets of skills which help in developing general logic, perception and creativity among the students, like workshops for embedded systems, 
+                                 Photo shop, computer languages like C++, Java, HTML, various quizzes, Forums and much more. --> 
+                                </li> 
+                            
+                                 <li> <span> CWD Team Member(2022-2024)  </span> <br> <br>  CWD (Connect with Director) is a society which acts as an intermediate between students and the 
+                                    director of the college to resolve issues faced by the students. It also helps in the preparation of college events such as dance competition,technical events 
+                                    such as hackathons,workshops and training sessions.
+                                  </li>
+                               
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="others">
+                        <ul>
+                            <li> <span> Object-Oriented Programming </span> <br> Object-oriented programming aims to implement real-world entities like 
+                                inheritance, hiding, polymorphism, etc in programming.  </li>
+                            <li> <span> Operating Systems </span> <br> Understanding the services offered by an operating system, an interface between a computer user and computer hardware. </li>
+                            <li> <span> Database Mangement </span> <br> A database management system is a software tool that enables users to manage a database easily. It allows users to access
+                                 and interact with the underlying data in the database. </li>
+                            <li> <span> Computer Networks </span> <br> Computer networking refers to interconnected computing devices that can
+                                 exchange data and share resources with each other. </li> 
+                            
+                            
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+   </div> 
+      <!-- --------------------------------- Services ----------------------------------- -->
+        <div id="services"  data-aos="zoom-in">
+            <h1 class="sub-title1" data-aos="zoom-in"> <span> My </span> Services </h1>
+            <div class="services-list">
+            <div data-tilt>
+                <i class="fa-brands fa-html5"></i>
+          <h2> Web Designing</h2>
+          <p>Web design encompasses many different languages such as HTML,CSS,Javascript
+            .This process involves organizing content and images across a series of pages and integrating 
+            applications and other interactive elements.
+             in the production and maintenance of websites. Front-end Development
+              deals with the appearence of the website while the Back-end deals with the working of the components visible on the screen. </p>
+        
+             </div>
+             <div data-tilt>
+                <i class="fa-solid fa-code"></i>
+                <h2> Programming Using DSA</h2>
+                <p>Data Structures and Algorithms are related to finding optimized solution, algorithms are used to solve problem using data and Data Structures are used to store the data in structured fashion. 
+                   DSA  is used to solve standard problem in details and provide efficient solutions. It help you to identify best choice of solutions that solve that problem in correct and more effient way.
+                   It is science of evaluating the efficiency of an algorithm.</p>     
+            </div>
+            </div>
+        </div>
+            <!---------------------------- portfolio---------------------------------------->
+                <div class="work" data-aos="zoom-in">
+                    <h1>  <span> My </span>  Work </h1>
+                </div>
+                <div id="portfolio" data-aos="fade-left">
+                    <div class="card">
+                        <div class="face face1">
+                         <div class="content">
+                            <img src="music.jpg" height="200px" width="300px">
+                            <h3>Spotify Clone Website</h3>
+                         </div>
+                        </div>
+                        <div class="face face2">
+                            <div class="content">
+                                <p>The goal of this project was to build a website that mimic the 
+                                    appearances and also some of the basic funtionalities of a popular
+                                     music-streaming platform - Spotify. It also shows the progress bar 
+                                     of the currently playing song which can be forwarded,resumed and played
+                                     according to the listener's wish.</p>
+                                     <!-- add project link -->
+                            <a href="https://trishasrivastava002.github.io/symphony.github.io/" target="_blank"> <i class="fa-brands fa-spotify"></i> </a> 
+        
+                             </div>
+                           </div>
+                          </div>
+                          <div class="card">
+                            <div class="face face1">
+                             <div class="content">
+                                <img src="dsa.jpg" height="200px" width="300px">
+                                <h3>LeetCode Coding Profile</h3>
+                             </div>
+                            </div>
+                            <div class="face face2">
+                                <div class="content">
+                                    <p>LeetCode is an online programming learning platform to help 
+                                        millions of developers enhance their skills, expand their 
+                                        knowledge and land their dream job.It's users have landed jobs at top companies around the world.
+                                       I am a consistent problem solver and contest participant on this
+                                        platform.</p>
+                            <a href="https://leetcode.com/trisha002/" target="_blank"> <i class="fa-solid fa-user"></i> </a>
+                                 </div>
+                            </div>
+                        </div>
+                </div>
+          </div>
+            
+            
+      
+        
+    <!-------------------------------contact --------------------------------------------->
+        <div id="contact" data-aos="zoom-in">
+            <div class="container">
+             <div class="row">
+                <div class="contact-left"> 
+                  <h1 class="sub-title2" data-aos-anchor-placement="top-center">Contact  <span>  Me </span></h1>
+                <p> <i class="fa-regular fa-envelope"></i> trishasrivastava002@gmail.com</p>
+                <p> <i class="fa-brands fa-whatsapp"> <a href="https://wa.me/+917827671825" target="_blank"> 7827671825 </a> </i> </p>
+                    
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/trisha-srivastava-1227461bb" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.hackerrank.com/trishasrivastav2" target="_blank"> <i class="fa-brands fa-hackerrank"></i> </a>
+                    <a href="https://github.com/TrishaSrivastava002" target="_blank"><i class="fa-brands fa-github"></i></a>
+                </div>
+                     
+                <a href="Resume.pdf" download class="btn btn1" target="_blank"> <br>
+                    Download Resume <br> <br> </a>
+                </div>
+            <div class="contact-right" data-aos="zoom-in"> </div>
+                 <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2" onclick="openpopup()"> Submit </button>
+                
+                    <!-- for thank you msg pop up -->
+    
+                    <!-- <div class="popup" id="pop">
+                        <img src="tick.png">
+                        <h2> Thank You!</h2>
+                        <p>Your details have been successfully submitted.</p>
+                        <button type="button" onclick="closepopup()">OK</button>
+                    </div> -->
+                 </form>
+                 
+             </div>
+            </div>
+          </div>
+   
+    
+   <script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    // this function will help in removing the tabs on clicking in about me section
+    function opentab(tabname){
+       for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+       }
+       for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+       }
+
+       event.currentTarget.classList.add("active-link");
+       document.getElementById(tabname).classList.add("active-tab");
+    }
+   </script>
+<!--===========================FOR OPENING AND CLOSING OF MENU ================================ -->
+   <script>
+     var side=document.getElementById("sidemenu");
+     function openmenu(){ 
+        // it will make menu visible when ever the below value is 0
+         side.style.right="0";  
+     }
+     function closemenu(){ 
+        // it will make menu disappear when ever the below value is 0
+         side.style.right="-200px";  
+     }
+   </script>
+   <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxa4J0Dk2uGsKQhQ0dWF1bQOZdZKJajzZEJTI_w2bwAxJw3Wg8gRMZtwS7xGdcV4eOe/exec'
+    const form = document.forms['submit-to-google-sheet']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+    })
+</script>
+<script>
+    // for popup open & close function
+    let popup=document.getElementById("pop");
+    // to display the popup
+    function openpopup(){
+        //   we need to change the top, visibility & scale to make the popup visible
+        popup.classList.add("open-popup");
+    }
+    // to hide the popup
+    function closepopup(){
+        //   we need to change the top, visibility & scale to make the popup visible
+        popup.classList.remove("open-popup");
+    }
+  </script>
+  <script src="vanilla-tilt.js"></script>
+
+  <script>
+    var loader=document.getElementById("preloader");
+    window.addEventListener("load",function(){
+        loader.style.display="none";
+    })
+  </script>
+  <!-- for scroll effect -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+        duration : 1000
+    });
+  </script>
+</body>
+</html>
