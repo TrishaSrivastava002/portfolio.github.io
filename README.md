@@ -3,7 +3,7 @@
 
 - 🔭 I’m currently working on [my portfolio website](https://trishasrivastava002.github.io/portfolio.github.io/)
 
-- 👨‍💻 All of my projects are available at [https://trishasrivastava002.github.io/Trisha_portfolio.github.io/](https://trishasrivastava002.github.io/portfolio.github.io/)
+- 👨‍💻 All of my projects are available at [https://trishasrivastava002.github.io/Trisha_portfolio.github.io/](https://github.com/TrishaSrivastava002)
 
 - 💬 Ask me about **C/C++, DSA, SQL,Front-End DEvelopment**
 
